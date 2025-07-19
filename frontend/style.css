@@ -1,0 +1,395 @@
+.bg-title{
+    /* background-color:#198754;
+    color:white;
+    padding:20px;
+    text-align:center;
+    height:15vh;
+    width:100vw;
+    border-radius:10px; */
+    background: linear-gradient(to right, #20c997, #198754);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.bg-container{
+    /* background-color:rgb(239, 233, 233); */
+    padding:30px;
+    text-align:center;
+    /* height:85vh; */
+    width:100vw;
+}
+.studentlist-container{
+    /* background-color:white;
+    height:50vh;
+    width:50vw;
+    overflow:auto; */
+    background-color: white;
+    height: 50vh;
+    width: 60vw;
+    overflow: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.addContainer{
+    display:flex;
+    justify-content:flex-end;
+    margin-bottom:20px;
+}
+.addButton{
+    /* background-color:#20c997;
+    border-radius:5px;
+    min-height:35px;
+    min-width:130px;
+    color:white;
+    border:none; */
+    background-color: #20c997;
+    border-radius: 8px;
+    min-height: 40px;
+    min-width: 150px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.addButton:hover {
+  background-color: #17b28c;
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.topBar{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin:15px
+}
+.columnHeaders{
+    /* background-color:lightgray;
+    color:black;
+    padding:15px;
+    padding-left:25px;
+    padding-right:50px;
+    height:35px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center; */
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 12px 25px;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    border-radius: 6px;
+}
+button:disabled {
+  background-color: #ccc !important;
+  color: #666 !important;
+  cursor: not-allowed !important;
+  opacity: 0.7 !important;
+  box-shadow: none !important;
+}
+.page{
+    /* background-color:rgb(239, 233, 233); */
+    background:linear-gradient(to bottom right, #e0f7fa, #fff);
+    min-height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+}
+.cardContainer{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.login{
+    box-shadow: 2px 2px 5px gray;
+    height:500px;
+    background-color:white;
+}
+.i{
+    height:500px;
+    width:500px;
+}
+.loginCard{
+    margin-top:50px;
+    padding:20px;
+}
+/* .b{
+    background-color:#20c997;
+    border-radius:5px;
+    color:white;
+    border:none;
+    height:35px;
+    width:80px;
+    margin-top:20px;
+} */
+.formCard{
+    background-color:white;
+    /* min-height:90vh; */
+    width:600px;
+    box-shadow: 2px 2px 5px gray;
+    /* padding:20px; */
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+.formCard h1 {
+  font-size: 26px;
+  color: #198754;
+  margin-bottom: 20px;
+}
+.formCard label {
+  font-weight: 600;
+  margin-top: 15px;
+  color: #333;
+}
+.formCard input,
+.formCard textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #198754;
+  padding: 8px;
+  margin-top: 5px;
+  background-color: #f9f9f9;
+  transition: 0.2s;
+}
+.formCard input:focus,
+.formCard textarea:focus {
+  background-color: #fff;
+  outline: none;
+  border-color: #20c997;
+}
+.b {
+  background-color: #20c997;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.b:hover {
+  background-color: #17a589;
+}
+#backBtn {
+  fill: #198754;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease;
+}
+#backBtn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.success{
+  color: white;
+  background-color: #28a745;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+.detailsPage{
+    /*background-color:white;
+    height:50vh;
+    width:80vw;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding:20px;
+    margin-top:20px; */
+    background-color: white;
+    width: 60vw;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+}
+.detailsPage h1 {
+  font-size: 28px;
+  color: #198754;
+  margin-bottom: 20px;
+}
+.detailsItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+.detailsLabel {
+  font-weight: bold;
+  width: 30%;
+  color: #198754;
+}
+.detailsValue {
+  width: 65%;
+  text-align: left;
+}
+.detailsPage p {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+  padding-left: 10px;
+  border-left: 4px solid #198754;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+.pageForm{
+   background:linear-gradient(to bottom right, #e0f7fa, #fff);
+   min-height:100vh;
+   width:100vw; 
+   display:flex;
+   flex-direction:column;
+}
+.cardContainerform{
+    flex:1;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+}
+.flex{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.actionsBtn{
+    /* height:30px;
+    width:50px; 
+    background-color: #20c997;*/
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 2px;
+}
+.btn-show {
+  background-color: #0d6efd;
+}
+.btn-show:hover {
+  background-color: #0b5ed7;
+}
+.btn-edit {
+  background-color: #ffc107;
+  color: black;
+}
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+.btn-del {
+  background-color: #dc3545;
+}
+.btn-del:hover {
+  background-color: #bb2d3b;
+}
+/* .actionsBtn:hover {
+  background-color: #17b28c;
+} */
+.spaceBetween{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.bottom-element {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  text-align: center;
+  padding: 1rem;
+}
+.footer{
+    text-align:center; 
+    padding: 15px; 
+    background-color:#d0f0f5; /* #f1f1f1;  */
+    color:#0b4f56; 
+    margin-top:40px;
+    border-top: 1px solid #ccc;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  margin: 6px 0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.row:hover {
+  background-color: #f1fdfc;
+  transform: translateY(-2px);
+}
+#addMarks {
+  background-color: #28a745; /* green */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#updateMarks {
+  background-color: #ffc107; /* yellow */
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#deleteMarks {
+  background-color: #dc3545; /* red */
+  color:white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#confirmDeleteSubject{
+    background-color: #20c997;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#addMarks:hover {
+  background-color: #218838;
+}
+#updateMarks:hover {
+  background-color:#e0a800;
+}
+#deleteMarks:hover {
+  background-color:#bd2130;/
+}
+#confirmDeleteSubject:hover {
+  background-color:#17a2b8;
+}
